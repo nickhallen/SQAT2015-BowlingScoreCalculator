@@ -24,6 +24,7 @@ public class Frame {
 	
 }
     
+    
     	
 	public int getFirstThrow() {
 		return firstThrow;
@@ -59,7 +60,8 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		//to be implemented
+		if (game.frame.size()==9)
+			return true;
 		return false;
 	}
 
@@ -70,7 +72,7 @@ public class Frame {
 	}
 
 	public static int size() {
-		// TODO Auto-generated method stub
+
 		return 0;
 	}
 

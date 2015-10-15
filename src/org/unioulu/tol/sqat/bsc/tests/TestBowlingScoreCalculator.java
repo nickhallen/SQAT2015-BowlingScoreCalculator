@@ -16,7 +16,7 @@ public class TestBowlingScoreCalculator {
 		
 	}
 	public void testScoreWithStrike() {
-		Frame frame = new Frame(11, 0);
+		Frame frame = new Frame(10, 0);
 		int Score = frame.score();
         assertEquals (10, frame.score());
 
@@ -30,7 +30,8 @@ public class TestBowlingScoreCalculator {
 	public void testScoreWithZeroScore() {
 		Frame frame = new Frame(0, 0);
 		int Score = frame.score();
-        assertEquals (2, frame.score());
+        assertEquals (0, frame.score());
 
 }
+	
 }

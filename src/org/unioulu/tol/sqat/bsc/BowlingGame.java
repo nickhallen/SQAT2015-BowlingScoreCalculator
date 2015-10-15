@@ -1,5 +1,5 @@
 package org.unioulu.tol.sqat.bsc;
-
+import 
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +15,13 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+	int currentBonus=0;
+	if(firstThrow ==10){
+		
+	}
+	else if (firstThrow+secondThrow==10){
+		
+	}
 	}
 	
 	public int score(){

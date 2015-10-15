@@ -83,3 +83,28 @@ EditAction 1444901770976 TestBowlingScoreCalculator.java 809 4 12 4
 UnitTestCaseAction 1444901771253 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444901771253 TestBowlingScoreCalculator OK
 EditAction 1444901781723 TestBowlingScoreCalculator.java 809 4 12 4
+UnitTestCaseAction 1444901782023 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444901782024 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444901799903 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444901799903 TestBowlingScoreCalculator OK
+RefactoringAction 1444901948276 BowlingGame.java ADD import Frame IMPORT
+RefactoringAction 1444901954292 BowlingGame.java REMOVE import Frame IMPORT
+RefactoringAction 1444902721652 TestBowlingScoreCalculator.java ADD void testSampleGame() METHOD
+RefactoringAction 1444902730167 TestBowlingScoreCalculator.java REMOVE testSampleGame() METHOD
+CompilationAction 1444903858899 BowlingGame.java
+RefactoringAction 1444903900504 Frame.java ADD int get FIELD
+RefactoringAction 1444903902522 Frame.java RENAME get=>int getScore FIELD
+RefactoringAction 1444903904539 Frame.java RENAME getScore=>int getScore() METHOD
+RefactoringAction 1444903956854 Frame.java RENAME getScore()=><initializer /1> null
+CompilationAction 1444904733328 Frame.java
+UnitTestCaseAction 1444904736104 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444904736104 TestBowlingScoreCalculator OK
+RefactoringAction 1444904850732 TestBowlingScoreCalculator.java ADD void testSampleGame() METHOD
+RefactoringAction 1444904854747 TestBowlingScoreCalculator.java REMOVE testSampleGame() METHOD
+RefactoringAction 1444904859764 TestBowlingScoreCalculator.java ADD void testScoreWithZeroScore()/2 METHOD
+RefactoringAction 1444904865280 TestBowlingScoreCalculator.java RENAME testScoreWithZeroScore()/2=>void testScoreIf() METHOD
+RefactoringAction 1444904868796 TestBowlingScoreCalculator.java RENAME testScoreIf()=>void testScoreIfGameIsOver() METHOD
+RefactoringAction 1444904955490 TestBowlingScoreCalculator.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1444904955490 TestBowlingScoreCalculator.java ADD import java.util.List IMPORT
+RefactoringAction 1444904966525 TestBowlingScoreCalculator.java ADD List<Frame> frames FIELD
+EditAction 1444904990069 BowlingGame.java 763 5 6 0
