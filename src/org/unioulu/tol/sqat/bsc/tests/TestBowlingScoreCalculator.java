@@ -10,7 +10,7 @@ public class TestBowlingScoreCalculator {
 
 	@Test
 	public void testScoreofTwoThrows() {
-		Frame frame = new Frame(8,2);
+		Frame frame = new Frame(4,2);
 		int Score = frame.score();
         assertEquals (6, frame.score());
 		
