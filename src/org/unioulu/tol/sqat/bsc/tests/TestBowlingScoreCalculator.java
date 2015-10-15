@@ -9,11 +9,15 @@ import org.junit.Test;
 public class TestBowlingScoreCalculator {
 
 	@Test
-	public void testScoreWithNoThrows() {
+	public void testScoreofTwoThrows() {
 		Frame frame = new Frame(4,2);
 		int Score = frame.score();
         assertEquals (6, frame.score());
 		
 	}
+	public void testScoreWithStrike() {
+		Frame frame = new Frame(10, 0);
+		int Score = frame.score();
+        assertEquals (6, frame.score());
 
 }
