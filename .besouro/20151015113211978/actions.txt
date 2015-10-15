@@ -34,3 +34,4 @@ RefactoringAction 1444900524756 TestBowlingScoreCalculator.java ADD import org.u
 RefactoringAction 1444900531264 TestBowlingScoreCalculator.java REMOVE import java.awt.Frame IMPORT
 EditAction 1444900648402 BowlingGame.java 584 5 2 0
 EditAction 1444900649087 TestBowlingScoreCalculator.java 351 1 3 1
+EditAction 1444900649161 Frame.java 1330 10 13 0
