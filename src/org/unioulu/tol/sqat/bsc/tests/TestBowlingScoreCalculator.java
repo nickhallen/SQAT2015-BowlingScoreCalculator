@@ -36,6 +36,7 @@ public class TestBowlingScoreCalculator {
         assertEquals (0, frame.score());
 
 }
+	public void testIsItTheLastFrame() {
 	
 
 	
