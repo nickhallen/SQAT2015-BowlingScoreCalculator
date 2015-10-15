@@ -55,3 +55,4 @@ RefactoringAction 1444900798739 TestBowlingScoreCalculator.java ADD void testSco
 RefactoringAction 1444900811253 TestBowlingScoreCalculator.java RENAME testScoreofTwoThrows()/2=>void testScoreWith() METHOD
 RefactoringAction 1444900813266 TestBowlingScoreCalculator.java RENAME testScoreWith()=>void testScoreWithStrike() METHOD
 CompilationAction 1444900926086 TestBowlingScoreCalculator.java
+EditAction 1444900997104 TestBowlingScoreCalculator.java 506 2 6 2

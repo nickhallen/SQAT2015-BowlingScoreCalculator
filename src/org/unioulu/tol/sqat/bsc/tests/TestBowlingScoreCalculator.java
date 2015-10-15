@@ -21,3 +21,4 @@ public class TestBowlingScoreCalculator {
         assertEquals (6, frame.score());
 
 }
+}
