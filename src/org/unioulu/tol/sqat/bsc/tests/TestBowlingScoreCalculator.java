@@ -30,7 +30,7 @@ public class TestBowlingScoreCalculator {
 	public void testScoreWithZeroScore() {
 		Frame frame = new Frame(0, 0);
 		int Score = frame.score();
-        assertEquals (0, frame.score());
+        assertEquals (2, frame.score());
 
 }
 }
