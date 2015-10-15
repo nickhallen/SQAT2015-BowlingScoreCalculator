@@ -60,8 +60,7 @@ public class Frame {
 
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
-		if (game.frame.size()==9)
-			return true;
+		//if (game.frames.size()==9)
 		return false;
 	}
 

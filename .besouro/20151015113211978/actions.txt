@@ -108,3 +108,27 @@ RefactoringAction 1444904955490 TestBowlingScoreCalculator.java ADD import java.
 RefactoringAction 1444904955490 TestBowlingScoreCalculator.java ADD import java.util.List IMPORT
 RefactoringAction 1444904966525 TestBowlingScoreCalculator.java ADD List<Frame> frames FIELD
 EditAction 1444904990069 BowlingGame.java 763 5 6 0
+CompilationAction 1444904990156 Frame.java
+CompilationAction 1444904990180 BowlingGame.java
+UnitTestCaseAction 1444904991287 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444904991287 TestBowlingScoreCalculator OK
+RefactoringAction 1444905164351 TestBowlingScoreCalculator.java REMOVE testScoreIfGameIsOver() METHOD
+UnitTestCaseAction 1444905193544 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444905193544 TestBowlingScoreCalculator OK
+CompilationAction 1444905201834 TestBowlingScoreCalculator.java
+CompilationAction 1444905201834 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444905203057 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444905203058 TestBowlingScoreCalculator FAIL
+CompilationAction 1444905231354 TestBowlingScoreCalculator.java
+UnitTestCaseAction 1444905232595 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444905232595 TestBowlingScoreCalculator OK
+RefactoringAction 1444905249545 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444905256240 TestBowlingScoreCalculator.java RENAME test=>void testIF FIELD
+RefactoringAction 1444905257756 TestBowlingScoreCalculator.java RENAME testIF=>void test FIELD
+RefactoringAction 1444905258772 TestBowlingScoreCalculator.java RENAME test=>void testIs FIELD
+RefactoringAction 1444905260288 TestBowlingScoreCalculator.java RENAME testIs=>void testIsT FIELD
+RefactoringAction 1444905263804 TestBowlingScoreCalculator.java RENAME testIsT=>void testIs FIELD
+RefactoringAction 1444905266320 TestBowlingScoreCalculator.java RENAME testIs=>void testIsItThe FIELD
+RefactoringAction 1444905267836 TestBowlingScoreCalculator.java RENAME testIsItThe=>void testIsItTheLast FIELD
+RefactoringAction 1444905275854 TestBowlingScoreCalculator.java RENAME testIsItTheLast=>void testIsItTheLastFrame FIELD
+RefactoringAction 1444905278370 TestBowlingScoreCalculator.java RENAME testIsItTheLastFrame=>void testIsItTheLastFrame() METHOD

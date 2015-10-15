@@ -4,10 +4,13 @@ import org.unioulu.tol.sqat.bsc.Frame;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 
 public class TestBowlingScoreCalculator {
-
+	private List<Frame> frames = new ArrayList<Frame>();
 	@Test
 	public void testScoreofTwoThrows() {
 		Frame frame = new Frame(4,2);
@@ -33,5 +36,7 @@ public class TestBowlingScoreCalculator {
         assertEquals (0, frame.score());
 
 }
+	
+
 	
 }
