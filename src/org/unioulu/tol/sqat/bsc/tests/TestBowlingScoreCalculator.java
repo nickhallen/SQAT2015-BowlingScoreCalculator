@@ -10,9 +10,9 @@ public class TestBowlingScoreCalculator {
 
 	@Test
 	public void testScoreWithNoThrows() {
-		Frame frame = new Frame(7,2);
+		Frame frame = new Frame(4,2);
 		int Score = frame.score();
-        assertEquals (10, frame.score());
+        assertEquals (6, frame.score());
 		
 	}
 
