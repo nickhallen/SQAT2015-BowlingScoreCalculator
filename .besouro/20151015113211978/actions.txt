@@ -56,3 +56,13 @@ RefactoringAction 1444900811253 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444900813266 TestBowlingScoreCalculator.java RENAME testScoreWith()=>void testScoreWithStrike() METHOD
 CompilationAction 1444900926086 TestBowlingScoreCalculator.java
 EditAction 1444900997104 TestBowlingScoreCalculator.java 506 2 6 2
+RefactoringAction 1444901117196 Frame.java ADD static int size() METHOD
+RefactoringAction 1444901219790 Frame.java ADD static Object get(int) METHOD
+RefactoringAction 1444901327846 TestBowlingScoreCalculator.java ADD void testScoreWithStrike()/2 METHOD
+RefactoringAction 1444901329872 TestBowlingScoreCalculator.java ADD void testScoreWithStrike()/3 METHOD
+RefactoringAction 1444901337386 TestBowlingScoreCalculator.java RENAME testScoreWithStrike()/3=>void testScoreWithS() METHOD
+RefactoringAction 1444901338902 TestBowlingScoreCalculator.java RENAME testScoreWithS()=>void testScoreWithSpare() METHOD
+RefactoringAction 1444901354917 TestBowlingScoreCalculator.java RENAME testScoreWithStrike()/2=>void testScore() METHOD
+RefactoringAction 1444901356933 TestBowlingScoreCalculator.java RENAME testScore()=>void testScoreWith() METHOD
+RefactoringAction 1444901445066 TestBowlingScoreCalculator.java RENAME testScoreWith()=>void testScoreWithZeroScore() METHOD
+EditAction 1444901454967 BowlingGame.java 678 5 4 0
